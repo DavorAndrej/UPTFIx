@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"     android:backgroundTint="@color/pastelBlue"
+
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/forgotPasswordTitle"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/pickCategory"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/darkBlueUPT"
+        android:textSize="@dimen/bigButtonTextSize" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="900dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="79dp"
+        android:backgroundTint="@color/pastelBlue"
+        android:layout_marginEnd="9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/pastelBlue"
+            android:orientation="vertical">
+
+            <GridView
+                android:id="@+id/cardsGrid"
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="@color/pastelBlue"
+                android:numColumns="2"
+                android:orientation="horizontal"
+                android:rowCount="8"
+                android:verticalSpacing="10dp"
+                android:scrollbarThumbHorizontal="@color/transparent"
+                android:scrollbarThumbVertical="@color/transparent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <CustomComponents.BottomBar
+        android:id="@+id/blueBottomBar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="-25dp"
+       android:orientation="vertical"
+       app:focusHomeButton="true"
+       />
+</RelativeLayout>

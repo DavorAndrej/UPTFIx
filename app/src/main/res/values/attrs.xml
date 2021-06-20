@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <declare-styleable name="EditText">
+        <attr name="text" format="string" />
+        <attr name="multiLineSize" format="boolean" />
+        <attr name="inputTypes" format="enum">
+            <enum name="normalText" value="0" />
+            <enum name="emailMode" value="1" />
+            <enum name="numericMode" value="2" />
+            <enum name="phoneNumberMode" value="3" />
+            <enum name="passwordMode" value="4" />
+            <enum name="multiLineMode" value="5" />
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="BlueButton">
+        <attr name="buttontext" format="string" />
+    </declare-styleable>
+    <declare-styleable name="BlueSpinner">
+        <attr name="spinnertext" format="string" />
+        <attr name="spinnerContent" format="enum">
+            <enum name="profileType" value="0" />
+            <enum name="dorms" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="BottomBar">
+        <attr name="focusHomeButton" format="boolean"/>
+        <attr name="focusProfileButton" format="boolean"/>
+        <attr name="focusHistoryButton" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CategoryCard">
+    <attr name="category" format="string" />
+    <attr name="cardCategory" format="enum">
+        <enum name="bed" value="0" />
+        <enum name="blinds" value="1" />
+        <enum name="chair" value="2" />
+        <enum name="cupboard" value="3" />
+        <enum name="desk" value="4" />
+        <enum name="door" value="5" />
+        <enum name="exit" value="6" />
+        <enum name="fridge" value="7" />
+        <enum name="outlet" value="8" />
+        <enum name="shelf" value="9" />
+        <enum name="shower" value="10" />
+        <enum name="sink" value="11" />
+        <enum name="toilet" value="12" />
+        <enum name="washing_machine" value="13" />
+        <enum name="windows" value="14" />
+
+
+    </attr>
+</declare-styleable>
+    <declare-styleable name="ReportedProblemCard">
+        <attr name="roomText" format="string" />
+        <attr name="problemDetailsText" format="string" />
+        <attr name="iconProblemCard" format="enum">
+            <enum name="bed" value="0" />
+            <enum name="blinds" value="1" />
+            <enum name="chair" value="2" />
+            <enum name="cupboard" value="3" />
+            <enum name="desk" value="4" />
+            <enum name="door" value="5" />
+            <enum name="exit" value="6" />
+            <enum name="fridge" value="7" />
+            <enum name="outlet" value="8" />
+            <enum name="shelf" value="9" />
+            <enum name="shower" value="10" />
+            <enum name="sink" value="11" />
+            <enum name="toilet" value="12" />
+            <enum name="washing_machine" value="13" />
+            <enum name="windows" value="14" />
+
+
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ProfileData">
+        <attr name="profileCategory" format="string" />
+        <attr name="dataCategory" format="enum">
+            <enum name="student" value="0" />
+            <enum name="email" value="1" />
+            <enum name="phone" value="2" />
+            <enum name="dorm" value="3" />
+            <enum name="door" value="4" />
+            <enum name="datetime" value="5" />
+            <enum name="details" value="6" />
+
+
+
+        </attr>
+    </declare-styleable>
+</resources>

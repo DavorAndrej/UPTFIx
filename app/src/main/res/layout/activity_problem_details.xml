@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"     android:backgroundTint="@color/pastelBlue"
+
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/exitButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/exit" />
+
+    <CustomComponents.ProfileData
+        android:id="@+id/studentDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/problemReportedBy"
+        app:dataCategory="student"
+        android:layout_marginTop="60dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/phoneNumberDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/phoneNumber"
+        app:dataCategory="phone"
+        android:layout_marginTop="130dp"/>
+
+    <CustomComponents.ProfileData
+        android:id="@+id/dateTimeDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/dateTime"
+        app:dataCategory="datetime"
+        android:layout_marginTop="200dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/dormDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/dorm"
+        app:dataCategory="dorm"
+        android:layout_marginTop="270dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/dormRoomDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/dormroom"
+        app:dataCategory="door"
+        android:layout_marginTop="340dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/detailsDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/problemInfo"
+        app:dataCategory="details"
+        android:layout_marginTop="410dp"/>
+    <TextView
+        android:id="@+id/attachedImageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attachedImage"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/darkBlueUPT"
+        android:textSize="@dimen/subtitleSize" />
+    <ImageView
+        android:id="@+id/problemImageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="90dp"
+     android:layout_below="@id/attachedImageTextView" />
+    <TextView
+        android:id="@+id/noImageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noImage"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="590dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/darkBlueUPT"
+        android:textSize="@dimen/subtitleSize" />
+
+</RelativeLayout>

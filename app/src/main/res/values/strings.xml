@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">UPTFix</string>
+    <string name="email">E-mail:</string>
+    <string name="password">Password:</string>
+    <string name="reenterpassword">Re-enter your password:</string>
+    <string name="login">Log-in</string>
+    <string name="signup">Sign-up</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="phoneNumber">Phone Numer:</string>
+    <string name="dorm">Dorm:</string>
+    <string name="administratedDorm">Administrated Dorm:</string>
+    <string name="dormroom">Dorm Room:</string>
+    <string name="reportedProblemRoom">Room</string>
+    <string name="account">Don\'t have an account?</string>
+    <string name="accounttype">Account Type:</string>
+    <string name="studentacc">Student Account</string>
+    <string name="adminacc">Admin Account</string>
+    <string name="category">Category:</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="problemDetails">Give us a description of your problem:</string>
+    <string name="reportProblem">Report Problem</string>
+    <string name="uploadPicture">Upload Picture</string>
+    <string name="workingdorm">What dorm are you working at?</string>
+    <string name="studentdorm">What dorm are you staying at?</string>
+    <string name="studentroom">What room are you staying at?</string>
+    <string name="errorEmptyName">Please enter a name!</string>
+    <string name="validName">Please enter a valid name!</string>
+    <string name="errorEmptySurname">Please enter a surname!</string>
+    <string name="validSurname">Please enter a valid surname!</string>
+    <string name="errorEmptyEmail">Please enter a e-mail adress!</string>
+    <string name="validEmail">Please enter a valid e-mail adress!</string>
+    <string name="errorEmptyRoom">Please enter a room number!</string>
+    <string name="validRoomNumber">Please enter a room number between 1 and 600!</string>
+    <string name="errorEmptyPassword">Please enter a password!</string>
+    <string name="emptyConfirmPassword">Please confirm your password!</string>
+    <string name="matchingPasswords">The passwords don\'t match!</string>
+    <string name="forgotPassword">Forgot your password?</string>
+    <string name="forgotPasswordTitle">Forgot Password</string>
+    <string name="forgotPasswordText">Please enter your account e-mail  so we can send you a reset link.</string>
+    <string name="emptyProblemDetails">You need to enter the details regarding your reported issue</string>
+    <string name="sendResetLink">Send Reset Link</string>
+    <string name="pickCategory">What broke in your room?</string>
+    <string name="Bed">bed</string>
+    <string name="accType">accountType</string>
+    <string name="accTypeStudent">Student</string>
+    <string name="accTypeAdmin">Admin</string>
+    <string name="ProfileInfo">Profile Info</string>
+    <string name="LogOut">Log Out</string>
+    <string name="AddProfilePic">Tap to add profile pic</string>
+    <string name="historyReportedProblems">Reported Problems History</string>
+    <string name="todayReportedProblems">Reported Problems Today</string>
+    <string name="problemSenderTitle">Tell us more about your problem</string>
+    <string name="errorTakingPicture">Can\'t take picture</string>
+    <string name="problemReportedBy">Problem Reported by:</string>
+    <string name="dateTime">Date &amp;Time Reported :</string>
+    <string name="problemInfo">Details:</string>
+    <string name="attachedImage">Attached Image:</string>
+    <string name="noImage">No image attached:</string>
+    <string name="mainInterfaceAdmin">MainInterfaceAdmin</string>
+    <string name="problemHistoryAdmin">ProblemHistoryAdmin</string>
+    <string name="problemHistoryStudent">ProblemHistoryStudent</string>
+    <string name="categoryProfileData">category</string>
+    <string-array name="Profile">
+        <item>Student</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="Dorms">
+        <item>1C</item>
+        <item>2C</item>
+        <item>4C</item>
+        <item>7C</item>
+        <item>8C</item>
+        <item>9C</item>
+        <item>11C</item>
+        <item>14C</item>
+        <item>19C</item>
+        <item>20C</item>
+        <item>21C</item>
+        <item>22C</item>
+        <item>23G</item>
+        <item>25G</item>
+        <item>1MV</item>
+        <item>2MV</item>
+        <item>FIH Dorm</item>
+    </string-array>
+</resources>

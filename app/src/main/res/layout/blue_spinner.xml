@@ -1,0 +1,38 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <TextView
+        android:id="@+id/spinnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/darkBlueUPT"/>
+    <RelativeLayout
+        android:id="@+id/customSpinnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bluerectangle"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:layout_marginTop="30dp"
+        android:elevation="4dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white">
+
+        <Spinner
+            android:id="@+id/customBlueSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_medium"
+            android:backgroundTint="@color/white"
+            android:theme="@style/spinnerTheme"
+            />
+    </RelativeLayout>
+
+
+
+</merge>

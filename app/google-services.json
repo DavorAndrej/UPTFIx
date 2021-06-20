@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709092667522",
+    "project_id": "uptfixlicenta",
+    "storage_bucket": "uptfixlicenta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709092667522:android:192ee3504cd09b7699049b",
+        "android_client_info": {
+          "package_name": "com.app.uptfix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709092667522-dedgldaeba8n5b93mt8ljdcbot9vb6io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHnAAqc8D-AQ1T0A0IKRsDbuR2xEf567k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709092667522-dedgldaeba8n5b93mt8ljdcbot9vb6io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

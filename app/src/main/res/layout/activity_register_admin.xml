@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/adminacc"
+        android:textColor="@color/darkBlueUPT"
+        android:textSize="@dimen/titleSize" />
+    <CustomComponents.BlueSpinner
+        android:id="@+id/blueDormSpinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="22dp"
+        app:spinnertext="@string/workingdorm"
+        app:spinnerContent="dorms">
+
+    </CustomComponents.BlueSpinner>
+
+
+    <CustomComponents.EditText
+        android:id="@+id/passwordText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        app:inputTypes="passwordMode"
+        app:text="@string/password">
+
+    </CustomComponents.EditText>
+
+    <CustomComponents.EditText
+        android:id="@+id/confirmPasswdText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="20dp"
+        app:text="@string/reenterpassword"
+        app:inputTypes="passwordMode">
+    </CustomComponents.EditText>
+
+
+    <CustomComponents.BlueButton
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="480dp"
+        app:buttontext="@string/finish">
+
+    </CustomComponents.BlueButton>
+
+</RelativeLayout>

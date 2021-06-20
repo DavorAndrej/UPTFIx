@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"     android:backgroundTint="@color/pastelBlue"
+
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/forgotPasswordTitle"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/problemSenderTitle"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/darkBlueUPT"
+        android:textSize="@dimen/bartitleSize" />
+
+    <TextView
+        android:id="@+id/fieldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="154dp"
+        android:textColor="@color/darkBlueUPT"/>
+    <RelativeLayout
+        android:id="@+id/customEditTextLayout"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bluerectangle"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="180dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white">
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+    <CustomComponents.BlueButton
+        android:id="@+id/uploadPictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="20dp"
+        app:buttontext="@string/uploadPicture"/>
+    <CustomComponents.EditText
+        android:id="@+id/problemDescriptionEditText"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="20dp"
+        app:text="@string/problemDetails"
+        app:multiLineSize="true"
+        app:inputTypes="multiLineMode"/>
+
+    <TextView
+        android:id="@+id/textViewUploadePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/reportProblem"
+        android:visibility="invisible"
+        android:textColor="@color/darkBlueUPT" />
+
+
+    <CustomComponents.BlueButton
+        android:id="@+id/reportProblemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="590dp"
+        app:buttontext="@string/reportProblem" />
+
+    <ImageView
+        android:id="@+id/exitButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageView
+        android:id="@+id/selectedImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="240dp" />
+
+
+</RelativeLayout>

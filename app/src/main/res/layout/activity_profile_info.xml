@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"     android:backgroundTint="@color/pastelBlue"
+
+    tools:context=".MainActivity" >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/darkBlueUPT"/>
+
+    <TextView
+        android:id="@+id/textViewAddProfilePic"
+        android:layout_width="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="160dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/AddProfilePic"
+        android:textColor="@color/darkBlueUPT"
+        android:textSize="@dimen/buttonTextSize" />
+    <TextView
+        android:id="@+id/textViewProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile "
+        android:layout_marginStart="120dp"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/darkBlueUPT"
+        android:textSize="@dimen/bigButtonTextSize" />
+
+<CustomComponents.ProfileData
+    android:id="@+id/emailDataView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="80dp"
+    app:profileCategory="@string/email"
+    app:dataCategory="email"
+    android:layout_marginTop="210dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/phoneNumberDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/phoneNumber"
+        app:dataCategory="phone"
+        android:layout_marginTop="280dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/dormDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/dorm"
+        app:dataCategory="dorm"
+        android:layout_marginTop="350dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/dormDataView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/dorm"
+        app:dataCategory="dorm"
+        android:visibility="invisible"
+        android:layout_marginTop="280dp"/>
+    <CustomComponents.ProfileData
+        android:id="@+id/dormRoomDataView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        app:profileCategory="@string/dormroom"
+        app:dataCategory="door"
+        android:layout_marginTop="420dp"/>
+    <CustomComponents.BlueButton
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="500dp"
+        app:buttontext="@string/LogOut"/>
+
+
+    <CustomComponents.BottomBar
+        android:id="@+id/blueBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-23dp"
+        android:orientation="vertical"
+        app:focusProfileButton="true" />
+</RelativeLayout>

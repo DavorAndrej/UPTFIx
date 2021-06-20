@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:id="@+id/reportedProblemCardLayout"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:background="@drawable/category_rectangle"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/reportedProblemImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/textLayput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+            android:layout_marginStart="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/reportedProblemRoomText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                     android:text="@string/reportProblem"
+                android:textSize="@dimen/barSubtitleSize"
+                android:textColor="@color/darkBlueUPT"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/problemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/reportProblem"
+                android:textSize="@dimen/subtitleSize"
+                android:textColor="@color/darkBlueUPT"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</merge>

@@ -1,0 +1,46 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/barLayout"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:elevation="35dp">
+
+        <ImageView
+            android:id="@+id/topRectangle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/rectangle_bottom_bar" />
+
+
+        <ImageView
+            android:id="@+id/historyImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/history" />
+        <ImageView
+            android:id="@+id/homeImageButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/profileImageButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/profile" />
+
+
+    </RelativeLayout>
+</merge>

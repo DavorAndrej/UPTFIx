@@ -1,0 +1,47 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <TextView
+        android:id="@+id/fieldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/darkBlueUPT"/>
+    <RelativeLayout
+        android:id="@+id/customEditTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bluerectangle"
+        android:clickable="true"
+        android:contextClickable="true"
+         android:layout_marginTop="30dp"
+        android:elevation="4dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white">
+
+        <EditText
+            android:id="@+id/customEditText"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColorLink="@color/white"
+            android:backgroundTint="@color/transparent"
+            android:inputType="text"
+            android:ems="10"
+       />
+
+
+
+    </RelativeLayout>
+
+
+
+</merge>

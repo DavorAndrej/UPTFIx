@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleSize">36sp</dimen>
+    <dimen name="subtitleSize">18sp</dimen>
+    <dimen name="bartitleSize">30sp</dimen>
+    <dimen name="barSubtitleSize">20sp</dimen>
+    <dimen name="buttonTextSize">15sp</dimen>
+    <dimen name="bigButtonTextSize">30sp</dimen>
+    <dimen name="labelTextSize">18sp</dimen>
+    <dimen name="spinnerWidth">312sp</dimen>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name='UPTFix'
+include ':app'
